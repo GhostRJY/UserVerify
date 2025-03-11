@@ -1,0 +1,45 @@
+﻿<Window x:Class="UserVerify_WPF.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserVerify_WPF"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="282" Width="358" ResizeMode="NoResize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="1"/>
+            <GradientStop Color="#FF96C77C" Offset="0.614"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="RegisterButtonRegWin" Content="Register" HorizontalAlignment="Left" Margin="20,202,0,0" VerticalAlignment="Top" Width="138" Click="RegisterButton_Click"/>
+        <TextBox x:Name="LoginRegWin" HorizontalAlignment="Left" Margin="64,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.029"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="PasswordRegWin" HorizontalAlignment="Left" Margin="64,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.029"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="64,48,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="64,114,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <Button x:Name="CancelButtonRegWin" Content="Cancel" HorizontalAlignment="Left" Margin="196,202,0,0" VerticalAlignment="Top" Width="138" Click="CancelButton_Click"/>
+
+    </Grid>
+</Window>
