@@ -53,7 +53,8 @@ namespace UserVerify_WPF
             DatabaseConnection db = new DatabaseConnection();
             //Dictionary<string, BitmapImage> _imageCache = new();
 
-            string picturePath = db.ReadImageFromDatabase(m_userId);
+            //формирую путь к файлу с изображением
+            string picturePath = Directory.GetCurrentDirectory() + "\\"+db.ReadImageFromDatabase(m_userId);
 
             if(!string.IsNullOrEmpty(picturePath) && File.Exists(picturePath))
             {

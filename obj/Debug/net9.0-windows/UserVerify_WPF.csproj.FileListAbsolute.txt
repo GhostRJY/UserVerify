@@ -69,3 +69,4 @@ E:\C#\EntityFrameWork\UserVerify_WPF\obj\Debug\net9.0-windows\refint\UserVerify_
 E:\C#\EntityFrameWork\UserVerify_WPF\obj\Debug\net9.0-windows\UserVerify_WPF.pdb
 E:\C#\EntityFrameWork\UserVerify_WPF\obj\Debug\net9.0-windows\UserVerify_WPF.genruntimeconfig.cache
 E:\C#\EntityFrameWork\UserVerify_WPF\obj\Debug\net9.0-windows\ref\UserVerify_WPF.dll
+E:\C#\EntityFrameWork\UserVerify_WPF\obj\Debug\net9.0-windows\UserVerify_WPF.sourcelink.json

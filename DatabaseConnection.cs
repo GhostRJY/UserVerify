@@ -216,7 +216,7 @@ namespace userDataBase_ADO
         public string ReadImageFromDatabase(in int imageId)
         {
             // путь, куда сохранить извлечённое изображение
-            string filePath = $".\\image{imageId}.png";
+            string filePath = $"..\\image{imageId}.png";
 
             try
             {
@@ -252,6 +252,9 @@ namespace userDataBase_ADO
                 Console.WriteLine("Ошибка при извлечении изображения из базы: " + ex.Message);
             }
 
+            //специально меняю строку на имя файла, чтоб потом загрузить его в ShowPicture
+            filePath= $"..\\image{imageId}.png";
+            
             return filePath;
         }
 
